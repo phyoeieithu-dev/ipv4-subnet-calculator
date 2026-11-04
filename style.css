@@ -1,0 +1,37 @@
+body {
+  max-width: 36rem;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  font-family: system-ui, sans-serif;
+  line-height: 1.5;
+  color: #24352b;
+  background: #f7f5ee;
+}
+
+h1 {
+  font-family: Georgia, serif;
+  line-height: 1.2;
+}
+
+form {
+  display: grid;
+  gap: 0.75rem;
+}
+
+input,
+button {
+  font: inherit;
+  padding: 0.75rem;
+}
+
+input {
+  min-width: 0;
+}
+
+button {
+  justify-self: start;
+}
+
+#result {
+  overflow-wrap: anywhere;
+}
